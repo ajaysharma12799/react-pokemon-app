@@ -7,6 +7,13 @@
 body {
   background-color: #3944F7;
   font-family: 'Roboto', sans-serif;
+  cursor: url("https://emoji.gg/assets/emoji/6419_great_pokeball.png"), auto;
+}
+a {
+  text-decoration: none;
+}
+button {
+  background-color: #3DBE29 !important;
 }
 .pokemon-container {
   display: flex;
