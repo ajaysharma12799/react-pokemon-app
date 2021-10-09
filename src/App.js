@@ -40,7 +40,7 @@ const App = () => {
     <div className="container mb-3">
       <SearchBox 
         placeholder={"Search Pokemon"}
-        handleChange={e => setPokemonName(e.target.value)}
+        handleChange={e => setPokemonName(e.target.value.toLowerCase())}
       />
       <button onClick={handleChange} className="btn btn-success w-100">Search</button>
     </div>
